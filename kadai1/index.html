@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="p1.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+</head>
+<body>
+    <div class="wrap">
+        
+    <div class="logo">
+        <h1>Tanakaの部屋</h1>
+    </div>
+    <div class="about">
+        <h2>プロフィール</h2>
+        <p>Webデザイナーとして活動中の田中です。<br>
+        ロゴ、パンフレット、イラスト制作など幅広い活動を行っています。
+        </p>
+    </div>
+    <div class="works">
+        <h2>作品</h2>
+        <p>学校で作った作品集です。<br>
+        画像をクリックするとサイズが大きくなります。</p>
+        <!-- ここに画像のHTMLを挿入していく -->
+        <div class="photoBox">
+            <div class="photo">
+                <a href="apple1.jpg" data-fancybox="gallery" data-caption="この作品は〇〇をイメージしたさくひんです。"><img src="apple1.jpg" alt=""></a>
+            </div>
+            <div class="photo">
+                <a href="human.jpg" data-fancybox="gallery" data-caption="この作品は〇〇をイメージしたさくひんです。"><img src="human.jpg" alt=""></a>
+            </div>
+            <div class="photo">
+                <a href="vietnum.jpg" data-fancybox="gallery" data-caption="この作品は〇〇をイメージしたさくひんです。"><img src="vietnum.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <div class="twitter">
+        <h2>twitter</h2>
+        <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="500" data-theme="dark" href="https://twitter.com/elonmusk?ref_src=twsrc%5Etfw">Tweets by elonmusk</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="contact">
+        <h2>お問い合わせ</h2>
+        <p>お問いわせはメールにて<br>
+        hoge@example.comまでご連絡ください。</p>
+    </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind("[data-fancybox]", {
+        });
+    </script>    
+</body>
+</html>
