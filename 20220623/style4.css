@@ -1,0 +1,30 @@
+body{
+    background-color: darkcyan;
+}
+.boxA:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.box1{
+    background-color: rgb(173, 196, 23);
+    height:200px;
+    width:33.33%;
+    float:left;
+}
+.box2{
+    background-color: darkviolet;
+    height:200px;
+    width:33.33%;
+    float:left;
+}
+.box3{
+    background-color: hotpink;
+    height:200px;
+    width:33.33%;
+    float:left;
+}
+.box4{
+    background-color:coral;
+    height:200px;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: blueviolet;
+}
+.boxA:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.box1{
+    background-color: chocolate;
+    height:200px;
+}
+.box2{
+    background-color: blue;
+    height:200px;
+    float:left;
+    width:70%;
+}
+.box3{
+    background-color: crimson;
+    height:200px;
+    float:left;
+    width:30%;
+}
+.box4{
+    background-color:darkslategray;
+    height:200px;
+}
