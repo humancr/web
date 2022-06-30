@@ -1,19 +1,13 @@
-.boxA:after{
-    content:"";
-    display: block;
-    clear: both;
-}
+
 .box1{
     background-color:blue;
     height:200px;
-    width:60%;
-    float:left;
+
 }
 .box2{
     background-color: rgb(19, 161, 76);
     height:200px;
-    width:40%;
-    float:left;
+
 }
 .box3{
     background-color:coral;
@@ -22,13 +16,33 @@
 .box4{
     background-color: darkslategrey;
     height:200px;
-    width:50%;
-    float:left;
+
 }
 .box5{
     background-color: brown;
     height:200px;
-    width:50%;
-    float:left;
-}
 
+}
+@media (min-width:768px){
+    .box1{
+        width:40%;
+        float:left;
+    }
+    .box2{
+        width:60%;
+        float:left;
+    }
+    .box4{
+        width:50%;
+        float:left;
+    }
+    .box5{
+        width:50%;
+        float:left;
+    }
+    .boxA:after{
+        content:"";
+        display: block;
+        clear: both;
+    }
+}
