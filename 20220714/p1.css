@@ -1,0 +1,32 @@
+.box1{
+    background-color: blue;
+    height:200px;
+}
+.box2{
+    background-color: chocolate;
+    height:200px;
+}
+.box3{
+    background-color: brown;
+    height:200px;
+
+}
+.box4{
+    background-color: darkgoldenrod;
+    height:200px;
+}
+@media (min-width:768px){
+    .box2{
+        float:left;
+        width:70%;
+    }
+    .box3{
+        float:left;
+        width:30%;
+    }
+    .cf:after{
+        content: "";
+        display: block;
+        clear:both;
+    }
+}
