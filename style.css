@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(49, 49, 49);
+    color:rgb(255, 236, 211);
+    font-size:120%;
+}
+a {
+    color:rgb(252, 81, 115);
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(254, 12, 60);
+    background-color: beige;
+}
+ul,li{
+    list-style: none;
+}
