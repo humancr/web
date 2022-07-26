@@ -15,11 +15,10 @@
 }
 .sideBar{
     width:30%;
-    background-color: chocolate;
+
 }
 .footer{
-    height:200px;
-    background-color: darkgoldenrod;
+
 }
 .contentWrap{
     display:flex;
