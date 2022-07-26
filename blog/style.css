@@ -30,14 +30,13 @@ ul,li{
 }
 .content{
     width:70%;
-    background-color: blue;
 }
 .sideBar{
     width:30%;
-
+    padding:0px 20px;
 }
 .footer{
-
+ text-align: center;
 }
 .contentWrap{
     display:flex;
