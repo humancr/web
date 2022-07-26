@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+
+}
+.navi{
+    height:100px;
+    background-color: brown;
+}
+.content{
+    width:70%;
+    background-color: blue;
+}
+.sideBar{
+    width:30%;
+    background-color: chocolate;
+}
+.footer{
+    height:200px;
+    background-color: darkgoldenrod;
+}
+.contentWrap{
+    display:flex;
+}
+.content img{
+    max-width: 100%;
+}
+.header img{
+    width:300px;
+}
